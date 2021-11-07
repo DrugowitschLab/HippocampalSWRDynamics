@@ -1,0 +1,31 @@
+[tool.poetry]
+name = "HippocampalSWRDynamics"
+version = "0.1.0"
+description = ""
+authors = ["DrugowitschLab"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+numpy = "^1.18.2"
+pandas = "^1.0.3"
+scipy = "^1.4.1"
+matplotlib = "^3.2.1"
+torch = "^1.4.0"
+notebook = "^6.0.3"
+jupyterlab = "^2.1.0"
+click = "^7.1.1"
+ipython = "^7.13.0"
+seaborn = "^0.10.1"
+compress-pickle = "^2.0.1"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+flake8 = "^3.7.9"
+black = "18.9b0"
+yapf = "^0.29.0"
+ipykernel = "^5.4.3"
+mypy = "^0.910"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"

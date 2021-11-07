@@ -1,0 +1,26 @@
+# data
+*.obj
+*.npy
+*.mat
+*.csv
+*.ai
+results/*
+data/*
+
+# python
+**/__pycache__/*
+**/.ipynb_checkpoints/*
+
+# mac
+.DS_store
+
+# vscode
+.vscode/*
+
+# figures
+*.png
+*.svg
+*.pdf
+
+# poetry
+replay_structure.egg-info/*
