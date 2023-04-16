@@ -4,6 +4,10 @@ version = "0.1.0"
 description = ""
 authors = ["DrugowitschLab"]
 
+packages = [
+    { include = "replay_structure" },
+]
+
 [tool.poetry.dependencies]
 python = "^3.8"
 numpy = "^1.18.2"
